@@ -88,7 +88,6 @@ reg post_tot bal
 
 * Store regression results in locals:
 local b_reg1 = round(_b[bal],0.001) 
-local c_reg1 = round(_b[_cons], 0.001)
 local N_reg1 = e(N)
 local R_reg1 = round(e(r2), 0.001)
 local se_reg1 = round(_se[bal], 0.001)
@@ -104,7 +103,6 @@ reg post_tot bal `controls'
 * Store regression results in locals:
 	// Treatment 
 	local b_reg2 = round(_b[bal],0.001) 
-	local c_reg2 = round(_b[_cons], 0.001)
 	local N_reg2 = e(N)
 	local R_reg2 = round(e(r2), 0.001)
 	local se_reg2 = round(_se[bal], 0.001)
