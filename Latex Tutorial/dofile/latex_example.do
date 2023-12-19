@@ -3,6 +3,8 @@
 * 
 * Date Created: Oct 12th, 2023
 * Date Updated: Oct 23rd, 2023
+* Purpose: [I WOULD ADD A BRIEF DESCRIPTION HERE, CAN BE TAKEN DIRECTLY FROM THE PDF INSTRUCTIONS]
+* AUTHOR: [IF YOU FEEL COMFORTABLE, IT WOULD BE GREAT TO GET YOUR NAME ON THIS!]
 *************************************************
 
 *************************************************
