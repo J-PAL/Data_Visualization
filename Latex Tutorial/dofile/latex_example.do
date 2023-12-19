@@ -222,7 +222,7 @@ graph export "$figures/figure_1.png", as(png) replace
 	line "& & Post-test Score & \\"	
 	line "& Coefficient & P-value & Coefficient & P-value \\"
 	line "\midrule"
-    line "Balsakhi Treatment &  `b_reg1'  & `p_reg1' & `b_reg2' & `p_reg2' \\"	
+    	line "Balsakhi Treatment &  `b_reg1'  & `p_reg1' & `b_reg2' & `p_reg2' \\"	
 	line "& (`se_reg1')  &     &  (`se_reg2') &  \\"
 
 	* Loop for exporting local controls into table
