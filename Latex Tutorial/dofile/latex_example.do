@@ -179,7 +179,7 @@ graph export "$figures/figure_1.png", as(png) replace
 	* Create document title, author & date 
 	line "\title{Stata-LaTeX Integration Example}"
 	line "\author{J-PAL}"
-	line "\date{Last Updated: November 2023}"
+	line "\date{Last Updated: January 2024}"
 	
 	* Begin document
 	line "\begin{document}"
