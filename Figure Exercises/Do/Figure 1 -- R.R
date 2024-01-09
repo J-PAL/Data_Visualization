@@ -54,6 +54,6 @@ figure <- ggplot(collapse, aes(x = pre_tot, y = diff_scores, size = n, color=as.
   labs(caption = "Note: Markers are scaled by the number of students in each bin. The average bin size is 421 students.")
 
 
-ggsave('Figures/Figure 1 - R.png',figure, width = 12, height = 8)
+ggsave('Figures/Figure 1 - R.png',figure, width = 8, height = 4)
 
 
