@@ -13,7 +13,7 @@ library(dplyr)
 library(tidyverse)
 library(haven)
 
-setwd("[SET MAIN WORKING DIRECTORY HERE]")
+setwd("[INSERT WORKING DIRECTORY HERE]")
 
 # Import .dta data file and create subset data frame
 data <- read_dta("Data/baroda_0102_1obs.dta")
@@ -53,8 +53,7 @@ figure <- ggplot(collapse, aes(x = pre_tot, y = diff_scores, size = n, color=as.
                axis.title = element_text(size =10), plot.caption = element_text(hjust = 0)) +
   labs(caption = "Note: Markers are scaled by the number of students in each bin. The average bin size is 421 students.")
 
-figure
 
-
+ggsave('Figures/Figure 1 - R.png',figure, width = 12, height = 8)
 
 
